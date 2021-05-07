@@ -63,7 +63,7 @@ input {
   border: 1.5px solid #828282;
   padding: 12px;
   width: 490px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 ::placeholder {
   padding-left: 0.7rem;
@@ -235,12 +235,12 @@ footer p {
     margin: 0 auto;
   }
   .second {
-    width: 100%;
+    width: 98%;
     margin: 0;
     /* margin: 2rem auto; */
   }
   .content-2 {
-    width: 90%;
+    width: 100%;
    
   }
   .item-image img {
@@ -282,7 +282,7 @@ footer p {
 
    .first {
      width: 100%;
-     padding: 1rem;
+     /* padding: 1rem; */
    }
     
    header h1 {
@@ -303,7 +303,7 @@ footer p {
    .i-div {
      margin-top: 0.4rem;
      padding: 10px;
-     width: 275px; 
+     width: 320px; 
     }
 
     ::placeholder {
@@ -311,12 +311,19 @@ footer p {
     } 
     .form-6 {
       margin-top: 0.5rem;
-      width: 280px;
+      width: 320px;
     }
+    
     .ii-div {
-      width: 120px;
+      width: 155px;
       padding: 0.1rem;
     }
+    /* .ii-div ::placeholder {
+      color: red;
+      width: 126px;
+      font-size: 4px;
+    } */
+   
     .first-contentii {
       margin-top: 2rem;
     }
@@ -332,14 +339,15 @@ footer p {
       margin-top: 1rem;
     }
     .btn-continue {
-      margin-left: 140px;
+      margin-left: 200px;
     }
     footer {
       width: 100%;
+      margin-top: 20px;
     }
     footer p {
-      padding-top: 70px;
-      font-size: 8px;
+      padding: 70px 0 8px 0 ;
+      font-size: 10px;
       text-align: center;
     }
   
